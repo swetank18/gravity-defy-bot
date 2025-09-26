@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { Cpu, Wrench, Gauge, Wifi } from "lucide-react";
+import robotPhoto from "@/assets/robot-photo.jpeg";
 
 const RobotSection = () => {
   return (
@@ -15,6 +16,24 @@ const RobotSection = () => {
             precise mechanical design, and intelligent control systems.
           </p>
         </div>
+
+        {/* Robot Photo Section */}
+        <Card className="tech-card max-w-4xl mx-auto mb-12 animate-slide-up">
+          <CardContent className="p-8">
+            <div className="text-center">
+              <div className="w-full max-w-2xl mx-auto mb-6">
+                <img 
+                  src={robotPhoto} 
+                  alt="Team Gravity Defiers Self-Balancing Robot with Coffee Cup" 
+                  className="w-full h-auto rounded-lg border-2 border-primary/20"
+                />
+              </div>
+              <p className="text-sm text-muted-foreground">
+                🤖 Our self-balancing robot successfully balancing a coffee cup
+              </p>
+            </div>
+          </CardContent>
+        </Card>
 
         <Tabs defaultValue="strategy" className="max-w-6xl mx-auto">
           <TabsList className="grid w-full grid-cols-2 md:grid-cols-4 bg-secondary/50">
@@ -215,7 +234,7 @@ const RobotSection = () => {
                     </div>
                     <div>
                       <span className="text-sm font-medium text-primary">Wheels</span>
-                      <p className="text-lg">2 (Self-balancing)</p>
+                      <p className="text-lg">2 traction wheels 70mm dia</p>
                     </div>
                   </div>
                 </CardContent>
@@ -229,6 +248,10 @@ const RobotSection = () => {
                   <div className="flex justify-between items-center">
                     <span className="text-sm">Microcontroller</span>
                     <span className="text-sm font-medium text-primary">ESP32</span>
+                  </div>
+                  <div className="flex justify-between items-center">
+                    <span className="text-sm">Motor Driver</span>
+                    <span className="text-sm font-medium text-primary">TB6600</span>
                   </div>
                   <div className="flex justify-between items-center">
                     <span className="text-sm">Sensor</span>

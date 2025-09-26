@@ -5,8 +5,8 @@ const TeamSection = () => {
   const teamMembers = [
     { name: "Shivam", role: "Spaced" },
     { name: "Dhruv", role: "Spaced" },
-    { name: "Lohit", role: "Sissed" },
-    { name: "Einstein", role: "Sissed" },
+    { name: "LOHITH", role: "SIESED" },
+    { name: "Einstein", role: "SIESED" },
     { name: "Rijhul", role: "Sambed" },
     { name: "Venkat", role: "MCSOCD" },
     { name: "Soham", role: "MCSOD" },
@@ -20,8 +20,7 @@ const TeamSection = () => {
             Our <span className="bg-gradient-primary bg-clip-text text-transparent">Team</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            Meet the brilliant minds behind Gravity Defiers - a diverse team of engineers, 
-            innovators, and problem-solvers united by our passion for robotics.
+            Meet the brilliant minds behind the scenes — a team of passionate engineers turning ideas into reality.
           </p>
         </div>
 

@@ -10,8 +10,8 @@ const AboutSection = () => {
             About <span className="bg-gradient-primary bg-clip-text text-transparent">Team Gravity Defiers</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-4xl mx-auto leading-relaxed">
-            We are team Gravity Defiers, aiming to design and develop a self-stabilising, 
-            two-wheeled robot capable of maintaining equilibrium under real-world conditions. 
+            We are Team Gravity Defiers, dedicated to designing and developing a self-stabilizing, 
+            two-wheeled robot with the ultimate goal of balancing a coffee cup with precision and stability. 
             As a sub-branch of SRM Robocon, we push the boundaries of robotics engineering 
             through innovative design and precise control systems.
           </p>
